@@ -20,7 +20,7 @@ from stability.stability_metrics import StabilityMetrics
 os.environ['PYOPENGL_PLATFORM'] = 'egl'
 
 from smplx import SMPL
-SMPL_MODEL_DIR = '/ps/project/alignment/models/smplx_internal/smpl/'
+SMPL_MODEL_DIR = './data/smpl/'
 SMPL_BATCH_SIZE = 500
 smpl_obj = SMPL(
             SMPL_MODEL_DIR,
